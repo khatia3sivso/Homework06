@@ -120,4 +120,45 @@ li{
     left: 696px;
     width: 216px;
     height: 26px;
+   
+}
+
+.name-input, .email-input, .number-input, .message-input{
+    /* Layout Properties */
+    position: absolute;
+    left: 1216px;
+    width: 463px;
+    height: 60px;
+    background: transparent;
+    /* UI Properties */
+    opacity: 1; 
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    vertical-align: top;
+    
+}
+.name-input{
+    top: 373px;
+
+}
+.email-input{
+    top: 473px;
+}
+.number-input{
+    top: 573px;
+}
+.message-input{
+    top: 673px;
+    height: 140px;
+}
+::placeholder{
+    position: absolute;
+    vertical-align: top;
+    text-align: left;
+    font: normal normal bold 16px/19px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
 }
