@@ -162,3 +162,22 @@ li{
     text-transform: uppercase;
     opacity: 1;
 }
+
+button{
+    /* Layout Properties */
+    position: absolute;
+    top: 853px;
+    left: 1528px;
+    width: 151px;
+    height: 55px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+    text-align: center;
+    font: normal normal bold 16px/19px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #171717;
+    text-transform: uppercase;
+    opacity: 1;
+}
