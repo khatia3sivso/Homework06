@@ -32,7 +32,7 @@ p{
     height: 99px;
     position:absolute;
 
-    font: normal normal normal 16px/26px HelveticaNeueLTGEOW82-55Rm;
+    font: normal normal normal 16px/26px Helvetica NeueLTGEOW82-55Rm;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -57,7 +57,67 @@ p{
     width: 463px;
     height: 197px;
     position: absolute;
-    background: transparent url('images/Rectangle 47.png') 0% 0% no-repeat padding-box;
+}
+li{
+    list-style: none;
+}
+
+.little-white-box1, .little-white-box2{
+    /* Layout Properties */
+    top: 767px;
+    width: 70px;
+    height: 70px;
+    position:absolute;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
+.little-white-box1{
+    left: 240px;
+}
+
+.little-white-box2{
+    left: 606px;
+}
+
+.phone-logo{
+    /* Layout Properties */
+    position:absolute;
+    top: 789px;
+    left: 262px;
+    width: 26px;
+    height: 26px;
+}
+.message-logo{
+    /* Layout Properties */
+    position: absolute;
+    top: 792px;
+    left: 630px;
+    width: 22px;
+    height: 20px;
+}
+
+.number, .email{
+    font: normal normal bold 22px/27px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.number{
+    /* Layout Properties */
+    position: absolute;
+    top: 789px;
+    left: 330px;
+    width: 178px;
+    height: 26px;
+}
+
+.email{
+    /* Layout Properties */
+    position: absolute;
+    top: 789px;
+    left: 696px;
+    width: 216px;
+    height: 26px;
+}
